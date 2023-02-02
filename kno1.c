@@ -102,8 +102,8 @@ int main()
 
     //4.枚举常量：可以一一列举的常量 eg:三原色
     //前面enum已定义
-    enum Sex s = MALE;
-    printf("s = %d\n",s); //0 默认从0开始
+    enum Sex k = MALE;
+    printf("k = %d\n",k); //0 默认从0开始
     printf("%d\n",FEMALE); //1
     printf("%d\n",SECRET); //2
     //MALE = 10; //枚举常量不能修改
